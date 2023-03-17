@@ -17,7 +17,7 @@
   None
 
   ## Usage
-  View the deployed application at: https://anitabanh.github.io/reactportfolio/#portfolio  About gives a quick overview about me.  Portfolio hightlights two projects.  Contact includes a form for users to reach out to me.  Resume is a summary of my most recent work experience.  The footer links additional insight on gitHub and LinkedIn. 
+  View the deployed application at: https://anitabanh.github.io/reactportfolio/  About gives a quick overview about me.  Portfolio hightlights two projects.  Contact includes a form for users to reach out to me.  Resume is a summary of my most recent work experience.  The footer links additional insight on gitHub and LinkedIn. 
 
   ## License
   Licensed under the MIT License - see the [LICENSE.md](https://github.com/AnitaBanh/reactportfolio/blob/main/LICENSE) file for details.
