@@ -17,7 +17,7 @@ export default function Footer() {
         height= {40}
       />
       </a>
-      <a href="https://linkedin.com/AnitaBanh">
+      <a href="https://linkedin.com/in/anitabanh">
       <Image
         src={linkedin}
         alt="LinkedIn logo"
