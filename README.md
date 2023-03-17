@@ -1,5 +1,5 @@
-  ##React Portfolio 
-![](https://img.shields.io/badge/license-MIT-green)
+  ## Portfolio
+  ![](https://img.shields.io/badge/license-MIT-green)
 
   ## Description
   This is an portfolio was built using React.js.  
