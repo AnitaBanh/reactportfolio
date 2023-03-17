@@ -1,8 +1,9 @@
-Social-Network-API
+#React Portfolio
 ![](https://img.shields.io/badge/license-MIT-green)
 
   ## Description
   This is an portfolio was built using React.js.  
+  ![image](https://user-images.githubusercontent.com/120350675/225808412-feb9c215-0593-4fd7-ac6f-aa8e4a44dbb6.png)
 
   ## Table of Contents 
   - [Installation](##installation)
