@@ -6,7 +6,7 @@ import Image from "react-bootstrap/Image";
 import "../styles/index.css";
 import { Col, Row } from "react-bootstrap";
 import propairs from "../assets/propairs.png";
-import trivia from "../assets/trivia.png"
+import trivia from "../assets/trivia.png";
 
 export default function Portfolio() {
   return (
@@ -16,7 +16,7 @@ export default function Portfolio() {
       {Array.from({ length: 1 }).map((_, idx) => (
         <Col className="d-flex"> 
     <Card style={{ width: "18rem", display: "flex-row" }}>
-      <Image size="100 160" src={propairs} />
+      <Image src={propairs} height= {135}/>
       <Card.Body>
         <Card.Title>ProPairs</Card.Title>
         <Card.Text>Explore team compatibility based on personality type</Card.Text>
@@ -24,10 +24,10 @@ export default function Portfolio() {
       <ListGroup className="list-group-flush">
         <ListGroup.Item>Deployed: Mar 2023 </ListGroup.Item>
         <ListGroup.Item>
-          Technologies: React.js, MongoDB, Mongoose, GraphQL, bcrypt, Node,js, Express.js
+          Technologies: <br></br>React.js, MongoDB, Mongoose, GraphQL, bcrypt, Node,js, Express.js
         </ListGroup.Item>
         <ListGroup.Item>
-          github: https://github.com/MZernick/Project-Partners
+          github: <a href="https://github.com/MZernick/Project-Partners">https://github.com/MZernick/Project-Partners</a>
         </ListGroup.Item>
       </ListGroup>
       <Card.Body>
@@ -36,18 +36,18 @@ export default function Portfolio() {
     </Card>
 
     <Card style={{ width: "18rem", display: "flex-row"  }}>
-      <Image  src={trivia} />
+      <Image  src={trivia} height= {135}/>
       <Card.Body>
         <Card.Title>Trivia Tracker</Card.Title>
-        <Card.Text>Answer correctly to climb the scoreboard!</Card.Text>
+        <Card.Text>Climb the scoreboard by answering the most questions correctly</Card.Text>
       </Card.Body>
       <ListGroup className="list-group-flush">
         <ListGroup.Item>Deployed: Feb 2023 </ListGroup.Item>
         <ListGroup.Item>
-          Technologies: Handlebars,js, MySQL, Sequelize ORM, Node,js, Express.js
+          Technologies: Handlebars.js, MySQL, Sequelize ORM, Node,js, Express.js
         </ListGroup.Item>
         <ListGroup.Item>
-          github: https://github.com/MZernick/Trivia-Tracker
+          github: <a href="https://github.com/MZernick/Trivia-Tracker">https://github.com/MZernick/Trivia-Tracker</a>
         </ListGroup.Item>
       </ListGroup>
       <Card.Body>
